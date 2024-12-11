@@ -1,0 +1,331 @@
+body {
+    font-family: Arial, sans-serif; /* Seteaza fontul general */
+    background-color: #f8f9fa; /* Fundal deschis pentru toata pag */
+}
+
+
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center; /* Aliniere centrala la footer */
+}
+
+
+
+/* PRIMA PAGINA  */
+
+
+
+/* Stilul pentru sectiunea de "welcome" */
+.welcome-section {
+    background: linear-gradient(135deg, #b6d1e0, #4a81df); /* Fundal gradient de la albastru deschis la albastru inchis */
+    color: white; /* Culoarea textului meu*/
+    padding: 20px; /* Pt spatiere interna */
+    border-radius: 15px; /* Colturi rotunjite */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Umbra sectiunii */
+    transition: transform 0.2s; /* Animatie de transformare la hover */
+}
+
+/* Dimensiunea si stilul textului */
+.welcome-section h1 {
+    font-size: 30px; /* Font mare pentru titlu */
+    font-weight: bold;
+    margin-bottom: 10px;
+    color:#396ec9
+}
+
+.welcome-section p {
+    font-size: 18px; /* Font pentru subtitlu */
+    color: white
+}
+
+.welcome-section:hover {   /* Efect de animatie la hover */
+    transform: scale(1.05); /* Sectiunea se mareste usor la hover */
+}
+
+
+
+#destinatii {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Umbra */
+    border-radius: 15px;  /* Colturi rotunjite */
+    padding: 20px; /* Spatiu interior */
+}
+
+#destinatii h2{
+    font-size: 36px; /* Font mare pentru titlu */
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    color:#467fe2
+}
+
+
+.card {
+    border-radius: 10px; /* Colturi rotunjite */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Umbra subtila pt carduri */
+    transition: transform 0.2s; /* Animatie la hover */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Marirea cardului la hover */
+}
+
+
+
+.text-info {
+    color: #5fa3ed; /* Culoare albastra pt titluri */
+}
+
+.text-danger {
+    color: #dc3545; /* Culoare rosie pt titluri */
+}
+
+.text-warning {
+    color: #ffc107; /* Culoare galbena pt titluri */
+}
+
+.text-success {
+    color: #28a745; /* Culoare verde pt titluri */
+}
+.text-primary {
+    color:#1a3ac9; /*Culoare albastru inchis pentru titluri */
+}
+
+
+
+/* PAGINA A2A */
+
+
+
+/* Stiluri pentru sectiunea de Sfaturi de Calatorie */
+#sfaturi {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Umbra */
+    border-radius: 15px;  /* Colturi rotunjite */
+    padding: 20px; /* Spatiu interior */
+}
+
+.sfaturi-title {
+    text-align: center;
+    font-size: 40px; 
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.sfaturi-title .color1 {
+    color: #f0aacc; /* Culoare pentru prima parte - roz pal */
+}
+
+.sfaturi-title .color2 {
+    color:  #aac2f4; /* Culoare pentru a doua parte - albastru pal */
+}
+
+.sfaturi-title .color3 {
+    color: #d989d3; /* Culoare pentru a treia parte - violet pal */
+} 
+
+/* Stiluri pentru carduri */
+.card {
+    border: none; /* fara margine */
+    border-radius: 15px; /* Colturi rotunjite */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Umbra subtila pt carduri */
+    transition: transform 0.2s; /* Animatie la hover */
+}
+
+/* Stiluri la hover pentru carduri */
+.card:hover {
+    transform: scale(1.05); /* Ridica cardul usor la hover */
+}
+
+/* Stiluri pentru titlurile cardurilor */
+.card-title {
+    font-size: 25px; /* Dimensiune medie pentru titluri */
+    margin-bottom: 15px; /* Spatiu sub titlu */
+}
+
+/* Stiluri pentru listele din carduri */
+.card ul {
+    padding-left: 20px; /* Spatiu la stanga pentru liste */
+}
+
+.card ul li {
+    margin-bottom: 10px; /* Spatiu intre elementele listei */
+}
+ 
+.bg-roz-pal {
+    background-color: #f7d6e6; /* Roz pal */
+    padding: 20px; /* spatiere interioara */
+    border-radius: 10px; /* colturi rotunjite */
+}
+.bg-roz-pal h5 {
+    color: black; /* Culoare  pentru titlu */
+}
+
+.bg-roz-pal ul li {
+    color: black; /* Culoare pentru textul listei */
+}
+
+.bg-albastru-pal {
+    background-color: #d5e1fb; /* Roz pal */
+    padding: 20px; /* spatiere interioara*/
+    border-radius: 10px; /* colturi rotunjite */
+}
+.bg-albastru-pal h5 {
+    color: black; /* Culoare  pentru titlu */
+}
+
+.bg-albastru-pal ul li {
+    color: black; /* Culoare pentru textul listei */
+}
+.bg-violet-pal {
+    background-color: #e6ade3; /* Roz pal */
+    padding: 20px; /* spatiere interioara*/
+    border-radius: 10px; /* colturi rotunjite */
+}
+.bg-violet-pal h5 {
+    color: black; /* Culoare  pentru titlu */
+}
+
+.bg-violet-pal ul li {
+    color: black; /* Culoare pentru textul listei */
+}
+
+
+
+/*PAGINA A3A */
+
+
+
+/* Stiluri pentru h11*/
+
+ h11 {
+    color: #495057; /* Culoare gri pentru titlu */
+    font-size: 50px; /* Dimensiune mare pentru titlu */
+    margin-bottom: 30px; /* Spatiu sub titlu */
+    font-weight: bold; /* ingrosat */
+}
+
+/* Stiluri pentru sectiunea de contact */
+
+.contact-section {
+    background: linear-gradient(135deg, #f9f4f6, #f895ca); /* Fundal gradient de la roz deschis la roz inchis */
+    color: white; /* Text alb pentru contrast */
+    padding: 10px; /* Spatiu interior */
+    border-radius: 15px; /* Colturi rotunjite */
+    max-width: 680px; /* Latime maxima pentru sectiune */
+    margin: 50px auto; /* Centrare pe pagina */
+    text-align: center; /* Textul centrat */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Umbra */
+}
+
+.contact-section h2 {
+    font-size: 36px; /* Marime mai mare pentru titlu */
+    margin-bottom: 10px; /* Spatiu intre titlu si textul urmator */
+    font-weight: bold; /* Font ingrosat pentru titlu */
+    color: #495057;
+}
+
+.contact-section p{
+    font-size: 22px; /* Marime mai mare pentru titlu */
+    margin-bottom: 10px; /* Spatiu intre titlu si textul urmator */
+    font-weight: bold; /* Font ingrosat pentru titlu */
+    color: #495057;
+}
+
+.contact-info p {
+    font-size: 18px; 
+    margin: 10px 0; /* Spatiu intre fiecare linie de informatii */
+    color: white;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%; /* Latime completa a campurilor de input */
+    padding: 10px; /* Spatiu interior pentru campuri */
+    margin-top: 10px; /* Spatiu intre campuri */
+    border: 1px solid #495057; /* Bordura subtire gri deschis */
+    border-radius: 15px; /* Colturi rotunjite pentru input */
+    font-size: 16px; /* Marime standard a textului */
+}
+
+.contact-form button {
+    background-color:#495057; /* Culoare de fundal neagra pentru buton */
+    color: white; /* Text alb */
+    border: 1px solid white; /* Bordura de 1px */
+    padding: 15px; /* Spatiu interior pentru buton */
+    border-radius: 10px; /* Colturi rotunjite pentru buton */
+    font-size: 16px; /* Marime a textului in buton */
+}
+
+
+
+.persoane .box{
+    border:2px solid #495057; /*bordura subire solida de 2px */
+    border-radius: 15px; /*colturi rotunjite */
+    padding: 15px; /*spatiere interioara */
+    text-align: center; /* aliniere text pe centru */
+    margin-bottom: 20px; /*spatiu de 20px sub box */
+  }
+  
+  .persoane .box img{
+    height: 10rem; /*inaltime */
+    width:10rem; /*latime */
+    margin:.5rem 0; /*margini sus-jos stanga-dreapta */
+    border-radius: 100px; /*coltuir rotunjite */
+    object-fit: cover; /*redimensioneaza imaginea a.i. sa  umple complet cadrul elementului */
+  }
+  
+  .persoane .box h3{
+    color: #495057; /*culoare gri pt h3 */
+    font-size: 36px; /*dimensiune font */
+  }
+  
+  .persoane .box span1{
+    color: #C13584; /*culoare roz pt span1 */
+    font-size: 30px; /*dimensiune font span1 */
+  }
+  
+  .persoane .box span2{
+    color: #23509d; /*culoare pt span2 */
+    font-size: 30px; /*dimensiune pt span2 */
+  }
+
+
+
+.social-icons {
+    justify-content: center; /*aliniere centrala */
+    padding: 10px; /* spatiere interioara */
+}
+
+.social-icon {
+    display: inline-block; /* pentru a aranja iconitele una langa alta pe acelasi rand + controlul dimensiunilor width si height */
+    padding: 10px; /*spatiere interioara */
+    border-radius: 100px;  /*colturi rotunjte */
+    transition: transform 0.2s; /*animatie de tranzitie de 0.2 sec */
+    width: 60px; /*latime*/
+    height: 60px; /*inaltime */
+}
+
+.social-icon.instagram {
+    background-color: #C13584; /*culoare roz pt fundal */
+    color: white; /*culoare alba pt text */
+}
+
+.social-icon.instagram:hover {
+    background-color: #C13584;  /*culoare roz pt fundal iconita */
+    transform: scale(1.05); /*se mareste iconita la atingere */
+}
+
+.social-icon.facebook { /*culoare albastra pt fundal */
+    background-color:#23509d; /*culoare albastra pt fundal iconita */
+    color: white; //*se mareste iconita la tingere */
+}
+
+.social-icon.facebook:hover {
+    background-color: #23509d; /*culoare albastra pt fundal */
+    transform: scale(1.05); /*se mareste iconita la atingere */
+}
+
+.social-icon i {
+    font-size: 30px; /* dimensiune pt ce e in iconite */
+}
+

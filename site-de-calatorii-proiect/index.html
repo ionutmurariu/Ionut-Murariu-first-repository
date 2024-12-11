@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!--script java pt functionalitate collapsible navbar-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
+    <link rel="stylesheet" href="style.css"><!-- Stiluri personalizate -->
+     <link rel="icon" href="favicon1.ico" type="image/x-icon" />
+    <title>Site de călătorii</title>
+</head>
+<body>
+    <header class="text-white text-center py-5" style="background-image: url('cer-senin1.jpg'); background-size: cover; background-position: center;">
+        <div class="container">
+        <h1 class="text-white text-center">Site de Călătorii</h1>
+        <p>Explorează cele mai frumoase locuri din lume!</p>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+         <a class="navbar-brand" href="index.html">Acasă</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span> <!--iconul(trei linii)-->
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto"> <!--ml-auto aliniaza link-urile la dreapta-->
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#destinatii">Destinații Populare</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sfaturi.html">Sfaturi de Călătorie</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--Sectiunea "welcome"-->
+<div class="welcome-section text-center">
+    <h1>Bine ai venit pe site-ul nostru de călătorii!</h1>
+    <p>Alege destinații incredibile, inspiră-te din sfaturile noastre de călătorie și contactează-ne pentru recomandări personalizate!</p>
+</div>
+
+<!--Sectiunea Destinatii Populare-->
+    <section id="destinatii">
+    <div class="container">
+        <h2>Destinații Populare</h2>
+        <div class="row g-4">
+
+            <!-- Destinația 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="paris-franta.jpg" class="card-img-top" alt="Paris">
+                    <div class="card-body text-align:justify-content-center">
+                        <h5 class="card-title text-info">Paris, Franța</h5>
+                        <p class="card-text">Parisul, supranumit „Orașul Luminilor”, atrage turiști cu arhitectura sa iconică, precum Turnul Eiffel și Catedrala Notre-Dame, și oferă experiențe culturale unice la muzee celebre, precum Louvre, și în cafenelele sale romantice.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Destinația 2 -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="roma-italia.jpg" class="card-img-top" alt="Roma">
+                    <div class="card-body text-align:justify-content-center">
+                        <h5 class="card-title text-danger">Roma, Italia</h5>
+                        <p class="card-text">Roma, capitala Italiei, oferă o incursiune în istorie prin atracții iconice precum Colosseumul și Pantheonul, alături de experiențe culinare autentice. Vizitatorii se pot bucura de străduțele pitorești și de un gelato delicios.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Destinația 3 -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="tokyo-japonia.jpg" class="card-img-top" alt="Tokyo">
+                    <div class="card-body text-align:justify-content-center">
+                        <h5 class="card-title text-warning">Tokyo, Japonia</h5>
+                        <p class="card-text">Tokyo îmbină armonios tradiția și modernitatea, oferind temple antice, grădini zen, zgârie-nori și magazine futuriste. Gastronomia din Tokyo este un alt motiv pentru care orașul este un must-visit, cu sushi și ramen la tot pasul!</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Destinația 4 -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="new-york-sua.jpg" class="card-img-top" alt ="New York">
+                    <div class="card-body text-align:justify-content-center">
+                        <h5 class="card-title text-secondary">New York, SUA</h5>
+                        <p class="card-text">New York, „orașul care nu doarme niciodată", fascinează prin atracții emblematice ca Statuia Libertății, Central Park și Times Square. Orașul pulsează de cultură, artă și divertisment, fiecare cartier având un farmec distinct.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Destinația 5 -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="sydney-australia.jpg" class="card-img-top" alt="Sydney">
+                    <div class="card-body text-align:justify-content-center">
+                        <h5 class="card-title text-success">Sydney, Australia</h5>
+                        <p class="card-text">Sydney este renumit pentru Opera sa iconică și plaja Bondi, una dintre cele mai populare destinații de surf. Orașul oferă o viață de noapte vibrantă și o varietate de atracții culturale, și naturale, atrăgând turiști din întreaga lume.</p>
+                    </div>
+                </div>
+            </div>
+            <!--Destinația 6-->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="bali-indonesia.jpg" class="card-img-top" alt="Bali">
+                    <div class="card-body text-align:justify-content-center">
+                        <h5 class="card-title text-info">Bali, Indonesiaa</h5>
+                        <p class="card-text">Bali este o destinație exotică cunoscută pentru plajele sale superbe, templele antice și cultura vibrantă. Vizitatorii se pot bucura de activități precum surfing, yoga și explorarea teraselor de orez, cât și de o gastronomie delicioasă!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Site de Călătorii - B & I. Toate drepturile sunt rezervate.</p>
+    </footer>
+</body>
+</html>
